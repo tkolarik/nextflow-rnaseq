@@ -1,4 +1,5 @@
 # RNA-seq Quantification Pipeline on Nextflow/AWS
+[![CI](https://github.com/tkolarik/nextflow-rnaseq/actions/workflows/ci.yml/badge.svg)](https://github.com/tkolarik/nextflow-rnaseq/actions/workflows/ci.yml)
 
 Production-style RNA-seq quantification workflow built with Nextflow DSL2, Docker, and an AWS Batch profile.
 
