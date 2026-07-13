@@ -1,0 +1,24 @@
+nextflow_pipeline {
+
+    name "RNA-seq quantification smoke test"
+    script "../main.nf"
+    tag "pipeline"
+    tag "rnaseq"
+
+    test("test profile produces transcript count matrix") {
+
+        when {
+            params {
+                samplesheet = "${projectDir}/data/test_samplesheet.csv"
+                transcriptome = "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/reference/prokaryotic/SL1344_sub.fasta"
+                outdir = "${outputDir}/results"
+            }
+        }
+
+        then {
+            assert workflow.success
+            assert path("${outputDir}/results/counts/transcript_counts.tsv").exists()
+            assert path("${outputDir}/results/multiqc/multiqc_report.html").exists()
+        }
+    }
+}

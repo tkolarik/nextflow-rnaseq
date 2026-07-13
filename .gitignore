@@ -1,0 +1,8 @@
+.nextflow*
+.nf-test/
+work/
+results/
+*.log
+*.html
+.DS_Store
+digest.txt

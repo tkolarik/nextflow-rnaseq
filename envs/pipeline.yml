@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - curl=8.8.0
+  - fastp=0.23.4
+  - salmon=1.10.3
+  - multiqc=1.21
+  - procps-ng=4.0.4
+  - python=3.11
+  - pandas=2.2.2

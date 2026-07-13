@@ -1,0 +1,2 @@
+sample_id,condition,fastq_1,fastq_2
+prok_R1,condition_a,https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/prokaryotic/sample_R1_1.fq.gz,https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/prokaryotic/sample_R1_2.fq.gz

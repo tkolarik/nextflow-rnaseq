@@ -1,0 +1,2 @@
+sample_id,condition,fastq_1,fastq_2
+SRR1039508,airway,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/008/SRR1039508/SRR1039508_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/008/SRR1039508/SRR1039508_2.fastq.gz
